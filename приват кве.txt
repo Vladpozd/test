@@ -1,0 +1,65 @@
+package qwe;
+
+public class qwe {
+    private String s = "музыкальные работы " + "\n";
+    private String s1 = "добавьте альбома " + "\n";
+    private String s5 = " альбома " + "\n";
+    private String s6 = "добавьте " + "\n";
+    private String s2 = "добавьте песню" + "\n";
+    private String s3 = "дата выхода" + "\n";
+    private String s4 = "запись будет удалена автоматически " + "\n";
+    public String text1 = "альбом ";
+    public String text2 = "песня ";
+    public String text3 = "дата";
+    public String text5 = "хит";
+    public String text9 = "кукк";
+    public String text7 = "упп";
+
+
+    public String getS() {
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+    }
+
+    public String getS1() {
+        return s1;
+    }
+
+    public void setS1(String s1) {
+        this.s1 = s1;
+    }
+
+    public String getS2() {
+        return s2;
+    }
+
+    public void setS2(String s2) {
+        this.s2 = s2;
+    }
+
+    public String getS3() {
+        return s3;
+    }
+
+    public void setS3(String s3) {
+        this.s3 = s3;
+    }
+
+    public String getS4() {
+        return s4;
+    }
+
+    public void setS4(String s4) {
+        this.s4 = s4;
+    }
+    public String getS5() {
+        return s5;
+    }
+
+    public void setS5(String s5) {
+        this.s5 = s5;
+    }
+}

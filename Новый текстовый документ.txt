@@ -1,0 +1,43 @@
+import qwe.qwe;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        qwe fas = new qwe();
+        System.out.print(fas.getS());
+        System.out.print(fas.getS1());
+        System.out.print(fas.getS1());
+        System.out.print(fas.getS2());
+        System.out.print(fas.getS2());
+        System.out.print(fas.getS3());
+        String n1;
+        String n2;
+        String n3;
+        String n4;
+        String n6;
+        String n7;
+        String n5;
+        Scanner input = new Scanner(System.in);
+        n1 = input.nextLine();
+        n2 = input.nextLine();
+        n3 = input.nextLine();
+        n4 = input.nextLine();
+        n5= input.nextLine();
+        List collection = new ArrayList();
+        List collection1 = collection;
+        collection.add(n1 + " " + fas.text1);
+        collection.add(n2 + " " + fas.text2);
+        collection.add(n3 + " " + fas.text3);
+        collection.add(n3 + " " + fas.text3);
+        collection.add(n5 + " " + fas.text5);
+        collection.add(n5 + " " + fas.text1);
+        collection.add(n4 + " " + "Запись удалена!");
+        collection.remove(n4);
+        for (Object e : collection) {
+            System.out.println(e);
+        }
+    }
+}
