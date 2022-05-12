@@ -17,9 +17,9 @@ public class Main {
 
         System.out.print( hour_wages);
         System.out.println(rate* day);
-        System.out.println(rate* month);
+        System.out.println(rate* month );
         System.out.println(rate* year);
 
 
     }
-}
+} 
